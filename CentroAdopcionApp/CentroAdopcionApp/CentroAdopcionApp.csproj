@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAcercadp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAcercadp.Designer.cs">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAdopciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAcercadp.resx">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAdopciones.resx">
       <DependentUpon>FrmAdopciones.cs</DependentUpon>
     </EmbeddedResource>

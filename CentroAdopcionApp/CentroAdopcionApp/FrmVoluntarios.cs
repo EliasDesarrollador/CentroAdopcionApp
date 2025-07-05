@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CentroAdopcionApp
 {
-    public partial class frmColaboradores : Form
+    public partial class frmVoluntarios : Form
     {
-        public frmColaboradores()
+        public frmVoluntarios()
         {
             InitializeComponent();
         }

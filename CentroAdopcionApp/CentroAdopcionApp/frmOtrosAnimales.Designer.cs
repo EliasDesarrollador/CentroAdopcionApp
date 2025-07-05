@@ -1,6 +1,6 @@
 ﻿namespace CentroAdopcionApp
 {
-    partial class frmOtrosAnimales
+    partial class frmMascotas
     {
         /// <summary>
         /// Required designer variable.
@@ -140,10 +140,11 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // frmOtrosAnimales
+            // frmMascotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
@@ -156,8 +157,8 @@
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.Otros);
-            this.Name = "frmOtrosAnimales";
-            this.Text = "Otros Animales";
+            this.Name = "frmMascotas";
+            this.Text = "Mascotas";
             ((System.ComponentModel.ISupportInitialize)(this.dtpEdad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

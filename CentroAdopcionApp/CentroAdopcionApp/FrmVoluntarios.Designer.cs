@@ -1,6 +1,6 @@
 ﻿namespace CentroAdopcionApp
 {
-    partial class frmColaboradores
+    partial class frmVoluntarios
     {
         /// <summary>
         /// Required designer variable.
@@ -192,10 +192,11 @@
             this.cboSucursal.Size = new System.Drawing.Size(345, 24);
             this.cboSucursal.TabIndex = 22;
             // 
-            // frmColaboradores
+            // frmVoluntarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(800, 507);
             this.Controls.Add(this.cboSucursal);
             this.Controls.Add(this.txtCorreo);
@@ -214,7 +215,7 @@
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.Voluntarios);
-            this.Name = "frmColaboradores";
+            this.Name = "frmVoluntarios";
             this.Text = "Voluntarios";
             ((System.ComponentModel.ISupportInitialize)(this.numTelefono)).EndInit();
             this.ResumeLayout(false);
