@@ -16,5 +16,10 @@ namespace CentroAdopcionApp
         {
             InitializeComponent();
         }
+
+        private void frmAdopciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

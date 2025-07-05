@@ -64,6 +64,12 @@
     <Compile Include="FrmAdoptantes.Designer.cs">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOtrosAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOtrosAnimales.Designer.cs">
+      <DependentUpon>frmOtrosAnimales.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVoluntarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +82,11 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAnimales.cs">
+    <Compile Include="FrmGatos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAnimales.Designer.cs">
-      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    <Compile Include="FrmGatos.Designer.cs">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -108,14 +114,17 @@
     <EmbeddedResource Include="FrmAdoptantes.resx">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOtrosAnimales.resx">
+      <DependentUpon>frmOtrosAnimales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmVoluntarios.resx">
       <DependentUpon>FrmVoluntarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAnimales.resx">
-      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    <EmbeddedResource Include="FrmGatos.resx">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>

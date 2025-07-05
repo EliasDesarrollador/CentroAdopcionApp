@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace CentroAdopcionApp
 {
-    public partial class frmGatos : Form
+    public partial class frmOtrosAnimales : Form
     {
-        public frmGatos()
+        public frmOtrosAnimales()
         {
             InitializeComponent();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
