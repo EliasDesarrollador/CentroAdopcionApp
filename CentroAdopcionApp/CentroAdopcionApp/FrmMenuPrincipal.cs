@@ -1,8 +1,9 @@
-﻿using Guna.UI2.WinForms;
+﻿using CentroAdopcionApp;
+using CentroAdopcionApp.Datos;
+using Guna.UI2.WinForms;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using CentroAdopcionApp;
 
 namespace CentroAdopcionApp
 {
@@ -32,7 +33,11 @@ namespace CentroAdopcionApp
 
 
         }
-
+        private void btnMascotas_Click(object sender, EventArgs e)
+        {
+            frmMascotas ventana = new frmMascotas();
+            ventana.ShowDialog(); //Para llamar al formulario de mascotas
+        }
         private void btnAdoptantes_Click(object sender, EventArgs e)
         {
             frmAdoptantes frmAdoptantes = new frmAdoptantes();  
@@ -51,11 +56,6 @@ namespace CentroAdopcionApp
             frmVoluntarios.ShowDialog(); //Para llamar al formulario de voluntarios
         }
 
-        private void btnMascotas_Click(object sender, EventArgs e)
-        {
-            frmMascotas frmMascotas = new frmMascotas();    
-            frmMascotas.ShowDialog(); //Para llamar al formulario de mascotas
-        }
 
         private void btnAnimales_Click(object sender, EventArgs e)
         {

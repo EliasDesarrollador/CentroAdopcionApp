@@ -62,7 +62,7 @@
             this.btnAcercadelPrograma.FillColor = System.Drawing.Color.Gray;
             this.btnAcercadelPrograma.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAcercadelPrograma.ForeColor = System.Drawing.Color.White;
-            this.btnAcercadelPrograma.Location = new System.Drawing.Point(24, 525);
+            this.btnAcercadelPrograma.Location = new System.Drawing.Point(24, 556);
             this.btnAcercadelPrograma.Name = "btnAcercadelPrograma";
             this.btnAcercadelPrograma.Size = new System.Drawing.Size(180, 45);
             this.btnAcercadelPrograma.TabIndex = 3;
@@ -78,7 +78,7 @@
             this.btnMascotas.FillColor = System.Drawing.Color.Gray;
             this.btnMascotas.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMascotas.ForeColor = System.Drawing.Color.White;
-            this.btnMascotas.Location = new System.Drawing.Point(24, 425);
+            this.btnMascotas.Location = new System.Drawing.Point(24, 132);
             this.btnMascotas.Name = "btnMascotas";
             this.btnMascotas.Size = new System.Drawing.Size(180, 45);
             this.btnMascotas.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.btnVoluntarios.FillColor = System.Drawing.Color.Gray;
             this.btnVoluntarios.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnVoluntarios.ForeColor = System.Drawing.Color.White;
-            this.btnVoluntarios.Location = new System.Drawing.Point(24, 325);
+            this.btnVoluntarios.Location = new System.Drawing.Point(24, 344);
             this.btnVoluntarios.Name = "btnVoluntarios";
             this.btnVoluntarios.Size = new System.Drawing.Size(180, 45);
             this.btnVoluntarios.TabIndex = 3;
@@ -110,7 +110,7 @@
             this.btnAdopciones.FillColor = System.Drawing.Color.Gray;
             this.btnAdopciones.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAdopciones.ForeColor = System.Drawing.Color.White;
-            this.btnAdopciones.Location = new System.Drawing.Point(24, 228);
+            this.btnAdopciones.Location = new System.Drawing.Point(24, 454);
             this.btnAdopciones.Name = "btnAdopciones";
             this.btnAdopciones.Size = new System.Drawing.Size(180, 45);
             this.btnAdopciones.TabIndex = 3;
@@ -126,7 +126,7 @@
             this.btnAdoptantes.FillColor = System.Drawing.Color.Gray;
             this.btnAdoptantes.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAdoptantes.ForeColor = System.Drawing.Color.White;
-            this.btnAdoptantes.Location = new System.Drawing.Point(24, 123);
+            this.btnAdoptantes.Location = new System.Drawing.Point(24, 239);
             this.btnAdoptantes.Name = "btnAdoptantes";
             this.btnAdoptantes.Size = new System.Drawing.Size(180, 45);
             this.btnAdoptantes.TabIndex = 4;
@@ -155,7 +155,7 @@
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(279, 40);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(141, 26);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(177, 31);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "CentroAdopcion";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
@@ -166,7 +166,7 @@
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(1064, 40);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(50, 18);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(61, 22);
             this.guna2HtmlLabel2.TabIndex = 2;
             this.guna2HtmlLabel2.Text = "Usuario";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);

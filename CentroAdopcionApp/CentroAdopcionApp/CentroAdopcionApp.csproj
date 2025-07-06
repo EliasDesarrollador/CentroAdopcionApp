@@ -52,6 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\MascotaDAO.cs" />
+    <Compile Include="Entidad\Mascota.cs" />
     <Compile Include="FrmAcercadp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +72,11 @@
     <Compile Include="FrmAdoptantes.Designer.cs">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmOtrosAnimales.cs">
+    <Compile Include="frmMascotas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmOtrosAnimales.Designer.cs">
-      <DependentUpon>frmOtrosAnimales.cs</DependentUpon>
+    <Compile Include="frmMascotas.Designer.cs">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmVoluntarios.cs">
       <SubType>Form</SubType>
@@ -123,8 +125,8 @@
     <EmbeddedResource Include="FrmAdoptantes.resx">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmOtrosAnimales.resx">
-      <DependentUpon>frmOtrosAnimales.cs</DependentUpon>
+    <EmbeddedResource Include="frmMascotas.resx">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVoluntarios.resx">
       <DependentUpon>FrmVoluntarios.cs</DependentUpon>
